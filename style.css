@@ -282,6 +282,8 @@ section {
 
 .about-pic {
   border-radius: 2rem;
+  height: 100%;
+  width: auto;
 }
 
 .arrow {
@@ -306,8 +308,8 @@ section {
 }
 
 .section_pic-conteiner {
-  height: 400px;
-  width: 400px;
+  height: 300px;
+  width: 300px;
   margin: auto 0;
 }
 
@@ -413,4 +415,13 @@ article {
   height: 2.5rem;
 }
 
-/*https://youtu.be/ldwlOzRvYOU?t=6843*/
+/* FOOTER */
+
+footer {
+  height: 26vh;
+  margin: 0 1rem;
+}
+
+footer p{
+  text-align: center;
+}
