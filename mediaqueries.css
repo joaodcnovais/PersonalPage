@@ -1,0 +1,9 @@
+/*faz com que sempre que o display for menor que 1200 a nav vai desaparecer e vai aparecer o hamburguer*/
+@media screen and (max-width: 1200px){
+    #desktop-nav{
+        display: none;
+    }
+    #hamburger-nav{
+        display: flex;
+    }
+}
