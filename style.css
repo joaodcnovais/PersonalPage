@@ -1,4 +1,5 @@
-/* geral */
+/* GENERAL */
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
 * {
@@ -18,14 +19,14 @@ p {
   color: rgb(85, 85, 85);
 }
 
-/* links*/
+/* TRANSITION */
 
 a,
 .btn {
   transition: all 300ms ease;
 }
 
-/*nav*/
+/* DESKTOP NAV */
 
 nav,
 .nav-links {
@@ -35,7 +36,7 @@ nav,
 nav {
   justify-content: space-around;
   align-items: center;
-  height: 17vh; /*faz com que a nav ocupe 17% da pagina*/
+  height: 17vh;
 }
 
 .nav-links {
@@ -65,7 +66,7 @@ a:hover {
   cursor: default;
 }
 
-/*Hamburger Menu*/
+/* HAMBURGER MENU */
 
 #hamburger-nav {
   display: none;
@@ -95,7 +96,7 @@ a:hover {
 .menu-links {
   position: absolute;
   top: 100%;
-  right: 0%;
+  right: 0;
   background-color: white;
   width: fit-content;
   max-height: 0;
@@ -136,14 +137,16 @@ a:hover {
 .hamburger-icon span:first-child {
   transform: none;
 }
+
 .hamburger-icon span:first-child {
   opacity: 1;
 }
+
 .hamburger-icon span:first-child {
   transform: none;
 }
 
-/*secçoes*/
+/* SECTIONS */
 
 section {
   padding-top: 4vh;
@@ -157,7 +160,7 @@ section {
   display: flex;
 }
 
-/*secçao prefil*/
+/* PROFILE SECTION */
 
 #profile {
   display: flex;
@@ -166,27 +169,27 @@ section {
   height: 80vh;
 }
 
-.section_pic-conteiner {
+.section__pic-container {
   display: flex;
   height: 400px;
   width: 400px;
   margin: auto 0;
 }
 
-.section_text {
+.section__text {
   align-self: center;
   text-align: center;
 }
 
-.section_text p {
+.section__text p {
   font-weight: 600;
 }
 
-.section_text_p1 {
+.section__text__p1 {
   text-align: center;
 }
 
-.section_text_p2 {
+.section__text__p2 {
   font-size: 1.75rem;
   margin-bottom: 1rem;
 }
@@ -238,16 +241,16 @@ section {
 
 .btn-color-1,
 .btn-color-2:hover {
-  background-color: rgb(53, 53, 53);
+  background: rgb(53, 53, 53);
   color: white;
 }
 
 .btn-color-1:hover {
-  background-color: rgb(0, 0, 0);
+  background: rgb(0, 0, 0);
 }
 
 .btn-color-2 {
-  background-color: none;
+  background: none;
 }
 
 .btn-color-2:hover {
@@ -258,7 +261,7 @@ section {
   gap: 1rem;
 }
 
-/* about section*/
+/* ABOUT SECTION */
 
 #about {
   position: relative;
@@ -282,8 +285,6 @@ section {
 
 .about-pic {
   border-radius: 2rem;
-  height: 100%;
-  width: auto;
 }
 
 .arrow {
@@ -307,13 +308,13 @@ section {
   height: 80%;
 }
 
-.section_pic-conteiner {
-  height: 300px;
-  width: 300px;
+.section__pic-container {
+  height: 400px;
+  width: 400px;
   margin: auto 0;
 }
 
-/* EXPERIENCE SECTION*/
+/* EXPERIENCE SECTION */
 
 #experience {
   position: relative;
@@ -348,7 +349,11 @@ article {
   gap: 0.5rem;
 }
 
-/* PROJECTS*/
+article .icon {
+  cursor: default;
+}
+
+/* PROJECTS SECTION */
 
 #projects {
   position: relative;
@@ -356,7 +361,7 @@ article {
 
 .color-container {
   border-color: rgb(163, 163, 163);
-  background-color: rgb(250, 250, 250);
+  background: rgb(250, 250, 250);
 }
 
 .project-img {
@@ -415,13 +420,13 @@ article {
   height: 2.5rem;
 }
 
-/* FOOTER */
+/* FOOTER SECTION */
 
 footer {
   height: 26vh;
   margin: 0 1rem;
 }
 
-footer p{
+footer p {
   text-align: center;
 }

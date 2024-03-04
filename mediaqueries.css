@@ -12,7 +12,6 @@
   }
 }
 
-/*faz com que sempre que o display for menor que 1200 a nav vai desaparecer e vai aparecer o hamburguer*/
 @media screen and (max-width: 1200px) {
   #desktop-nav {
     display: none;
@@ -38,10 +37,10 @@
   section {
     margin: 0 5%;
   }
-  .section_pic-container {
+  .section__pic-container {
     width: 275px;
     height: 275px;
-    margin: 2rem auto;
+    margin: 0 auto 2rem;
   }
   .about-containers {
     margin-top: 0;
@@ -70,9 +69,8 @@
     flex-wrap: wrap;
   }
   .contact-info-container {
-    margin: 0.5rem;
+    margin: 0;
   }
-
   .contact-info-container p,
   .nav-links li a {
     font-size: 1rem;
@@ -88,15 +86,12 @@
     gap: 0.5rem;
     text-align: center;
   }
-  .section_pic-container {
-    display: flex;
+  .section__pic-container {
+    width: auto;
+    height: 46vw;
     justify-content: center;
-    align-items: center;
-    height: 300px;
-    width: 300px;
-    margin: auto 0;
   }
-  .section_text_p2 {
+  .section__text__p2 {
     font-size: 1.25rem;
   }
   .title {
@@ -105,9 +100,7 @@
   .text-container {
     text-align: justify;
   }
-  .about-pic {
-    width: 100%;
-    height: auto;
-    margin: 0 auto; /* This centers the image horizontally */
+  #email-text{
+    margin-right: 1rem;
   }
 }
